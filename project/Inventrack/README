@@ -1,0 +1,67 @@
+# 📦 Inventrack – Inventory Management System
+
+This repository contains the full documentation, hardware/software setup, and a functional demonstration of **Inventrack**, an RFID-based inventory management system developed for a university project.
+
+## 📝 Project Overview
+
+**Inventrack** is designed to automate and streamline inventory processes using RFID tags and Arduino microcontrollers. The system allows real-time monitoring of item check-ins and check-outs, improving traceability, reducing manual errors, and enhancing operational efficiency.
+
+## ⚙️ Technology Stack
+
+- **Hardware:**
+  - Arduino UNO
+  - RFID Reader Module (RC522)
+  - RFID Tags & Keycards
+  - LEDs, Buzzer (for feedback)
+  - Serial communication to PC
+
+- **Software:**
+  - Arduino IDE (C/C++ for embedded code)
+  - **PLX-DAQ (Excel Plugin):** For real-time data logging and monitoring
+  - Microsoft Excel for data visualization and storage
+
+## 🚀 How It Works
+
+1. The user scans an RFID tag using the reader connected to Arduino.
+2. The RFID UID (unique ID) is transmitted via serial to the computer.
+3. PLX-DAQ captures and logs the data directly into an Excel sheet with:
+   - Date
+   - Time
+   - RFID UID
+   - Additional columns for extended data
+
+4. Real-time feedback is provided via LEDs and a buzzer for scan confirmation.
+
+## 🖥️ Demo & Setup
+
+| **Presentation Setup** | **App Screenshot** |
+|------------------------|--------------------|
+| ![Presentation](Presentation_Setup.JPG) | ![App Screenshot](Screenshot_App.jpg) |
+
+The **presentation booth** included a poster summarizing the problem, solution, and client context, along with a live demo of the working system.
+
+## 📄 Documentation
+
+- [`Detailed_Software_Design.pdf`](Conception_detaillée_du_logiciel.pdf)
+- [`User_Manual.pdf`](Livrable_K_Gabarit_manuel_dutilisation-FA52.pdf)
+
+**Note:** 📢 *All documentation is written in French.*
+
+## 🧑‍💻 Team Members
+
+- Tania
+- Abirham Amalta
+- Lina
+- Imad
+- Chahia
+- Yassine
+
+## 🏫 Academic Context
+
+- University of Ottawa  
+- Client: Shared Services Canada  
+- Project aligned with PNIA (Plan numérique d’interopérabilité)
+
+---
+
+Feel free to explore the code, hardware setup, and supporting documents for full details on how **Inventrack** was built and deployed!

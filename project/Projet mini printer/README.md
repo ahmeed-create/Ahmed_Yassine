@@ -45,11 +45,6 @@ The Arduino sketch (to be added soon) controls:
 - Implement end-stop detection to prevent over-travel.
 - Code improvements for smoother motion.
 
-## 📎 Documentation
-
-The detailed report (in **French**) explains the concept, design choices, and analysis:
-- `Rapport_MCG2501_French_Version.pdf`
-
 ## 🚧 What's Next?
 
 - Debug and finalize Arduino code.
